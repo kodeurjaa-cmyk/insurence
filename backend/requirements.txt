@@ -1,0 +1,10 @@
+flask
+flask-cors
+python-dotenv
+supabase
+google-generativeai
+pytest
+python-docx
+reportlab
+pydantic
+markdown2
