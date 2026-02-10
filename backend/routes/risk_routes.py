@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from backend.services.risk_engine import RiskEngine
+from services.risk_engine import RiskEngine
 
 risk_bp = Blueprint('risk', __name__)
 risk_engine = RiskEngine()

@@ -1,0 +1,12 @@
+﻿Testing Backend Health...
+Health Check: 200 - {'status': 'healthy'}
+
+Testing Policy Generation...
+Policy Generation: 201
+Policy ID: mock-policy-id
+Risk Score: Medium
+Monthly Premium: 55.0
+Policy Generation SUCCESS
+
+Testing Frontend Reachability...
+Frontend: 200 - Reachable

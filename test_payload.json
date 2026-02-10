@@ -1,0 +1,12 @@
+{
+    "client_details": {
+        "age": 30,
+        "income": 75000,
+        "lifestyle": "medium",
+        "medical_history": false
+    },
+    "insurance_details": {
+        "type": "life",
+        "coverage_amount": 250000
+    }
+}

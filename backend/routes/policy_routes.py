@@ -1,9 +1,9 @@
 from flask import Blueprint, request, jsonify, send_file
 import os
-from backend.services.risk_engine import RiskEngine
-from backend.services.pricing_engine import PricingEngine
-from backend.services.ai_service import AIService
-from backend.models.supabase_models import SupabaseModels
+from services.risk_engine import RiskEngine
+from services.pricing_engine import PricingEngine
+from services.ai_service import AIService
+from models.supabase_models import SupabaseModels
 
 policy_bp = Blueprint('policy', __name__)
 
@@ -49,7 +49,7 @@ def create_policy():
         "policy_text": policy_text
     }), 201
 
-from backend.utils.exporters import Exporter
+from utils.exporters import Exporter
 from flask import send_file
 
 exporter = Exporter()

@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
-from backend.services.ai_service import AIService
-from backend.models.supabase_models import SupabaseModels
+from services.ai_service import AIService
+from models.supabase_models import SupabaseModels
 
 prompt_bp = Blueprint('prompt', __name__)
 

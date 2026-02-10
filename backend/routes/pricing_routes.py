@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from backend.services.pricing_engine import PricingEngine
+from services.pricing_engine import PricingEngine
 
 pricing_bp = Blueprint('pricing', __name__)
 pricing_engine = PricingEngine()

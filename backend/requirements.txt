@@ -8,3 +8,4 @@ python-docx
 reportlab
 pydantic
 markdown2
+PyPDF2
