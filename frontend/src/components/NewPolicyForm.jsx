@@ -89,7 +89,7 @@ const NewPolicyForm = () => {
 
             console.log('Sending payload:', payload);
 
-            const response = await axios.post('http://localhost:5000/api/policies/', payload);
+            const response = await axios.post(`${import.meta.env.VITE_API_BASE_URL}/api/policies/`, payload);
 
             console.log('Response received:', response);
 
